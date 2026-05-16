@@ -17,18 +17,26 @@ A backend notification system built with Java and Spring Boot for sending emails
 - Track delivery status (SENT/FAILED)
 
 ## Project Structure
-src/
-└── main/
-└── java/
-└── com/aniket/notification_system/
-├── controller/
-│   └── NotificationController.java
-├── model/
-│   └── Notification.java
-├── repository/
-│   └── NotificationRepository.java
-└── service/
-└── NotificationService.java
+
+```
+notification-system/
+├── src/
+│   └── main/
+│       └── java/
+│           └── com/aniket/notification_system/
+│               ├── controller/
+│               │   └── NotificationController.java
+│               ├── model/
+│               │   └── Notification.java
+│               ├── repository/
+│               │   └── NotificationRepository.java
+│               └── service/
+│                   └── NotificationService.java
+├── resources/
+│   ├── application.properties
+│   └── application.properties.example
+└── pom.xml
+```
 
 ## Setup Instructions
 1. Clone the repository
